@@ -185,7 +185,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: white !important;
+    color: white !important;
     transition: all 0.25s;
 }
 
