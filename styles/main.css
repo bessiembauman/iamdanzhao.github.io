@@ -144,11 +144,12 @@ a.anchor {
 
 header {
     padding: 0 auto;
-    display: flex;
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
     padding: 3em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header a {
@@ -172,6 +173,8 @@ header a:hover {
 nav {
     z-index: 2000;
     margin-left: auto;
+    margin-right: auto;
+    text-align: right;
 }
 
 nav a {
