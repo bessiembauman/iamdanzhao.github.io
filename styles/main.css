@@ -167,7 +167,6 @@ header a:hover {
     letter-spacing: .3em;
     text-transform: uppercase;
     font-weight: 600;
-    padding-bottom: 1em;
 }
 
 nav {
@@ -181,8 +180,13 @@ nav {
 nav a {
     font-size: 85%;
     letter-spacing: 0.05em;
-    margin: 1em;
+    margin: 2em;
     text-align: center;
+}
+
+nav a:hover {
+    background-color: white !important;
+    transition: all 0.25s;
 }
 
 footer {
