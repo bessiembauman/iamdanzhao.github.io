@@ -460,7 +460,7 @@ main {
     margin-bottom: 1em;
     display: block;
     font-weight: 400;
-    font-size: 225%;
+    font-size: 150%;
     line-height: 150%;
 }
 
@@ -468,7 +468,7 @@ main {
     margin-top: 1.25em;
     display: block;
     font-weight: 400;
-    font-size: 150%;
+    font-size: 100%;
     line-height: 150%;
 }
 
@@ -483,11 +483,11 @@ main {
 
     .home-desc {
         line-height: 125%;
-        font-size: 200%;
+        font-size: 150%;
     }
 
     .home-subdesc {
-        font-size: 125%;
+        font-size: 100%;
     }
 }
 
