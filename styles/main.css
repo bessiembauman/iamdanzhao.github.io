@@ -163,6 +163,7 @@ header a:hover {
 }
 
 #siteTitle {
+    text-align: center
     z-index: 2000;
     font-size: 150%;
     letter-spacing: .3em;
