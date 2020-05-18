@@ -9,7 +9,7 @@
 /* MAIN STYLES */
 
 body {
-    font-family: 'IBM Plex Sans', 'Segoe UI', 'Helvetiva Neue', 'Arial', sans-serif;
+    font-family: 'PT Serif', 'Georgia', sans-serif;
     padding: 0;
     margin: 0;
     line-height: 1.85em;
@@ -27,8 +27,6 @@ main a:not(.button):not(.fa):not(.arrow) {
     padding-left: 2px;
     padding-right: 2px;
     color: black;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent), color-stop(60%, rgba(0, 131, 255, 0.2)), to(rgba(0, 131, 255, 0.2)));
-    background: linear-gradient(to bottom, transparent 0, transparent 60%, rgba(0, 131, 255, 0.2) 60%, rgba(0, 131, 255, 0.2) 100%);
     text-decoration: none;
     transition: color 0.5s ease-in-out;
 }
@@ -75,11 +73,9 @@ h4 + h5 {
 h4 a,
 h5 a {
     background: rgba(255, 84, 112, 0.4) !important;
-    background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(60%,transparent),color-stop(60%,rgba(255, 84, 112,.4)),to(rgba(255, 84, 112, .4)))!important;
-    background: linear-gradient(to bottom,transparent 0,transparent 60%,rgba(255, 84, 112, .4) 60%,rgba(255, 84, 112, .4) 100%) !important;
 }
 
-h4 a:focus, 
+h4 a:focus,
 h4 a:hover,
 h5 a:focus,
 h5 a:hover {
@@ -87,7 +83,7 @@ h5 a:hover {
     color: white !important;
 }
 
-h4 a:focus::after, 
+h4 a:focus::after,
 h4 a:hover::after,
 h5 a:focus::after,
 h5 a:hover::after {
@@ -98,11 +94,11 @@ h5 a:hover::after {
     body {
         font-size: 95%;
     }
-    
+
     h1 {
         padding-bottom: 0;
     }
-    
+
     .quarter > h4:first-child,
     .half > h4:first-child {
         margin-top: 1.5em;
@@ -200,22 +196,22 @@ footer > * {
     footer {
         padding: 1.5em;
     }
-    
+
     header {
         position: relative;
         display: block;
         z-index: 2000;
     }
-    
+
     footer p {
         padding: 0;
         margin: 0;
     }
-    
+
     nav {
         margin-top: 18px;
     }
-    
+
     nav a:first-child{
         margin-left: 0;
     }
@@ -275,17 +271,17 @@ ol li > * {
 }
 
 .list-bar.buttons li {
-    transition: all 0.25s ease-in-out;  
+    transition: all 0.25s ease-in-out;
 }
 
 .list-bar.buttons li:hover {
     opacity: 0.5;
-    transition: all 0.25s;  
+    transition: all 0.25s;
 }
 
 .list-bar.buttons li a {
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 /* LAYOUT: CONTAINERS*/
@@ -328,8 +324,8 @@ main {
     .wide,
     .narrow {
         padding: 0.75em 1.5em;
-    } 
-    
+    }
+
     .inset {
         padding: 0;
     }
@@ -347,7 +343,7 @@ main {
     }
 }
 
-@media screen and (max-width: 480px) {    
+@media screen and (max-width: 480px) {
     .cut {
         max-width: 100%;
     }
@@ -382,12 +378,12 @@ main {
         width: 100%;
         padding-right: 0;
     }
-    
+
     .third {
         width: 100%;
         padding-right: 0;
     }
-    
+
     .quarter {
         width: 50%;
         padding-right: 0;
@@ -484,12 +480,12 @@ main {
 @media screen and (max-width: 640px) {
     .home-top {
     }
-    
+
     .home-desc {
         line-height: 125%;
         font-size: 200%;
     }
-    
+
     .home-subdesc {
         font-size: 125%;
     }
@@ -633,17 +629,17 @@ main {
         height: 270px;
         float: none;
     }
-    
+
     .projects .full img {
         max-width: 100% !important;
         height: 270px;
         float: none;
     }
-    
+
     .projects .half {
         width: 100%;
     }
-    
+
     .projects .half:nth-child(odd) {
         margin-right: 0;
     }
@@ -708,32 +704,4 @@ main {
     z-index: 2003;
     color: white;
     text-align: center;
-}
-
-#gradient-top {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
-    z-index: 1000;
-    position: fixed;
-    display: block;
-    background: -webkit-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
-    background: -o-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
-    background: -moz-linear-gradient(rgba(255,255,250,1), rgba(255,255,255,0));
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
-}
-
-#gradient-bottom {
-    width: 100%;
-    height: 150px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    position: fixed;
-    display: block;
-    background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(255,254,250,1));
-    background: -o-linear-gradient(rgba(255,255,255,0), rgba(255,254,250,1));
-    background: -moz-linear-gradient(rgba(255,255,255,0), rgba(255,254,250,1));
-    background: linear-gradient(rgba(255,255,255,0), rgba(255,254,250,1));
 }
