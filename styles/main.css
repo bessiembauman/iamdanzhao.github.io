@@ -1,7 +1,7 @@
 /* VARIABLES */
 
 :root {
-    --color-blue: #0083ff;
+    --color-blue: #111B36;
     --color-pink: #ff5470;
     --color-slate: #273142;
 }
@@ -182,11 +182,6 @@ nav a {
     letter-spacing: 0.05em;
     margin: 2em;
     text-align: center;
-}
-
-nav a:hover {
-    color: white !important;
-    transition: all 0.25s;
 }
 
 footer {
