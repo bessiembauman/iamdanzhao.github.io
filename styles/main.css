@@ -384,10 +384,13 @@ main {
     padding-right: 1.5em;
 }
 
-.two-thirds-background {
+.two-thirds {
     width: calc(66.66% - 1.5em);
     padding-right: 1.5em;
-    font-size: 95%
+}
+
+.home-bio {
+    font-size: 95%;
     line-height: 1.5em;
 }
 
