@@ -183,6 +183,12 @@ nav a {
     text-align: center;
 }
 
+nav a:hover {
+    background-color: #111B36;
+    color: white;
+    transition: all 0.25s;
+}
+
 footer {
     padding: 0 auto;
     display: flex;
