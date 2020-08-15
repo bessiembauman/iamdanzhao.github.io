@@ -1,9 +1,10 @@
 import React from "react";
-import { Grid, Divider } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import "./styles/home.css";
 
 function Home() {
   const profilePic = require("./Bauman_Bessie.jpg");
+  const icelandPic = require("./IMG_7802.jpg");
   return (
     <div>
       <Grid
@@ -425,47 +426,38 @@ function Home() {
         container
         direction="row"
         justify="center"
-        alignItems="center"
+        alignItems="top"
         style={{ paddingTop: "1em", paddingBottom: "1em" }}
       >
-        <Grid item xs={3}>
-          <h4>Books</h4>
-          <ul class="no-mark">
-            <li>
-              <i>The Yellow House</i> Sarah M. Broom
-            </li>
-            <li>
-              <i>Franchise</i> Marcia Chatelain
-            </li>
-            <li>
-              <i>Atomic Habits</i> James Clear
-            </li>
-            <li>
-              <i>Excellent Sheep</i> William Deresiewicz
-            </li>
-            <li>
-              <i>A House in the Sky</i> Amanda Lindhout & Sara Corbett
-            </li>
-          </ul>
+        <Grid item xs={12} style={{ textAlign: "center" }}>
+          <h2>More About Me</h2>
         </Grid>
-        <Grid item xs={3}>
-          <h4>Movies & TV Shows</h4>
-          <ul class="no-mark">
-            <li>Mrs. America</li>
-            <li>Westworld</li>
-            <li>Pulp Fiction</li>
-            <li>The Big Short</li>
-            <li>Gangs of New York</li>
-          </ul>
+        <Grid item xs={4}>
+          <img id="iceland-pic" src={icelandPic} alt=""></img>
         </Grid>
-        <Grid item xs={3}>
-          <h4>Nonprofits</h4>
-          <ul class="no-mark">
-            <li>Prosperity Now</li>
-            <li>Center on Budget and Policy Priorities</li>
-            <li>Institute on Taxation & Economic Policy</li>
-            <li>MicroGrants</li>
-            <li>Tax Policy Center</li>
+        <Grid item xs={4}>
+          <ul class="list-arrows">
+            <li style={{ paddingBottom: "1.5em" }}>
+              I am fluent in American Sign Language and proficient in Spanish. I
+              am passionate about Deaf community and culture.
+            </li>
+            <li style={{ paddingBottom: "1.5em" }}>
+              I have traveled to Cuba to study Spanish and meet my extended
+              family. My favorite comfort foods are picadillo, Cuban pork,
+              morro, and plaintains.
+            </li>
+            <li style={{ paddingBottom: "1.5em" }}>
+              Some of my favorite books are{" "}
+              <strong class="class-names">The Yellow House</strong> by Sarah
+              Broom, <strong class="class-names">Atomic Habits</strong> by James
+              Clear, and <strong class="class-names">A House in the Sky</strong>{" "}
+              by Amanda Lindhout.
+            </li>
+            <li>
+              I love to travel. I especially love to take road trips. In the
+              picture to the left, you'll see me in Iceland, where I drove
+              across the frozen south coast.
+            </li>
           </ul>
         </Grid>
       </Grid>

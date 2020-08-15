@@ -292,6 +292,7 @@ ol li > * {
 
 .list-arrows li:before {
   content: "→ ";
+  padding-right: 1em;
 }
 
 .list-bar {
@@ -559,6 +560,17 @@ hr.rounded-divider {
   width: 320px;
   float: right;
   margin: 0px 0 24px 20px;
+}
+
+#iceland-pic {
+  border-radius: 50%;
+  width: 320px;
+  float: left;
+  margin: 0px 0 24px 20px;
+}
+
+#cuba-pic {
+  width: 200px;
 }
 
 @media screen and (max-width: 768px) {

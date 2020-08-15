@@ -39,10 +39,10 @@ function App() {
           </a>
         </div>
         <p>
-          <i>
+          <strong>
             © 2020 Bessie Bauman | Website Inspired By{" "}
             <a href="https://www.danielzhao.com"> Daniel Zhao</a>
-          </i>
+          </strong>
         </p>
       </footer>
     </div>
