@@ -272,7 +272,7 @@ li a {
 li a:hover {
   background-color: var(--color-blue);
   color: white;
-  transition: all 0.25s;
+  transition: all 0.1s;
 }
 
 ul li >,

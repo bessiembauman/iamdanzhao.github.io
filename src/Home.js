@@ -34,20 +34,29 @@ function Home() {
           <span class="home-subdesc">
             I've been named a 2020{" "}
             <strong>
-              <a href="https://www.truman.gov/whats-new/2020-truman-scholars">
+              <a
+                href="https://www.truman.gov/whats-new/2020-truman-scholars"
+                target="_blank"
+              >
                 Truman Scholar
               </a>
             </strong>
             , a 2017{" "}
             <strong>
               {" "}
-              <a href="https://www.kansascity.com/news/local/community/joco-913/article153111499.html">
+              <a
+                href="https://www.kansascity.com/news/local/community/joco-913/article153111499.html"
+                target="_blank"
+              >
                 United States Presidential Scholar
               </a>
             </strong>
             , and a 2017{" "}
             <strong>
-              <a href="https://www.jkcf.org/our-stories/meet-the-2017-cooke-college-scholars/">
+              <a
+                href="https://www.jkcf.org/our-stories/meet-the-2017-cooke-college-scholars/"
+                target="_blank"
+              >
                 Jack Kent Cooke College Scholar
               </a>
             </strong>
@@ -62,7 +71,10 @@ function Home() {
             </strong>{" "}
             or connect with me on{" "}
             <strong>
-              <a href="https://www.linkedin.com/in/bessiebauman35/">
+              <a
+                href="https://www.linkedin.com/in/bessiebauman35/"
+                target="_blank"
+              >
                 LinkedIn.
               </a>
             </strong>
@@ -86,7 +98,7 @@ function Home() {
         </Grid>
         <Grid item xs={8}>
           <span class="home-subdesc">
-            I am a child of deaf adults, a second-generation Cuban-American, and
+            I am a child of Deaf adults, a second-generation Cuban-American, and
             a passionate advocate for economic justice.
           </span>
           <span class="home-subdesc">
@@ -136,18 +148,58 @@ function Home() {
               provide research support on federal policies related to economic
               stability and the COVID-19 crisis. I published two blog posts on{" "}
               <strong>
-                <a href="https://prosperitynow.org/blog/supporting-vita-supporting-families-through-pandemic">
+                <a
+                  href="https://prosperitynow.org/blog/supporting-vita-supporting-families-through-pandemic"
+                  target="_blank"
+                >
                   VITA
                 </a>{" "}
               </strong>
               and{" "}
               <strong>
-                <a href="https://prosperitynow.org/blog/seven-ways-congress-can-help-working-families-next-stimulus-bill">
+                <a
+                  href="https://prosperitynow.org/blog/seven-ways-congress-can-help-working-families-next-stimulus-bill"
+                  target="_blank"
+                >
                   Congressional Stimulus Priorities
                 </a>
               </strong>
               , as well as wrote policy briefs about Prosperity Now’s 2021
-              policy goals and universal banking.
+              policy goals and universal banking. I was funded by the Yale Law
+              School Arthur C. Liman Center for Public Interest Law as a{" "}
+              <strong>
+                <a
+                  href="https://law.yale.edu/centers-workshops/arthur-liman-center-public-interest-law/undergraduate-summer-fellowship/summer-fellows-host-organizations"
+                  target="_blank"
+                >
+                  summer fellow
+                </a>{" "}
+              </strong>
+              to pursue this opportunity.
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>Volunteer Income Tax Assistance Program</strong> (May 2019 -
+            June 2020)
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              I served as the Co-President of{" "}
+              <strong>
+                <a href="https://yhhap.org/vita" target="_blank">
+                  one of the largest service organizations on Yale’s campus
+                </a>
+              </strong>
+              . I managed 150 volunteers across Yale University and coordinated
+              free tax preparation for approximately 1,200 clients. In the 2020
+              tax season, we returned $1.3 million to taxpayers in the New Haven
+              area. Upon the closure of Yale University due the pandemic, I
+              worked with my Co-President Tylar Bloch to transition VITA to a
+              totally virtual operation to continue serving clients.
             </li>
           </ul>
         </Grid>
@@ -162,7 +214,10 @@ function Home() {
             <li>
               I was selected as a{" "}
               <strong>
-                <a href="https://isps.yale.edu/team/bessie-bauman">
+                <a
+                  href="https://isps.yale.edu/team/bessie-bauman"
+                  target="_blank"
+                >
                   Director's Fellow
                 </a>{" "}
               </strong>{" "}
@@ -192,34 +247,13 @@ function Home() {
               entrepreneurs in the Collab New Haven Food Business Accelerator
               and for the{" "}
               <strong>
-                <a href="https://www.legalfoodhub.org/services/education/">
+                <a
+                  href="https://www.legalfoodhub.org/services/education/"
+                  target="_blank"
+                >
                   Legal Food Hub of the Conservation Law Foundation.
                 </a>
               </strong>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={8}>
-          <span class="home-subdesc">
-            <strong>Volunteer Income Tax Assistance Program</strong> (May 2019 -
-            June 2020)
-          </span>
-        </Grid>
-        <Grid item xs={8}>
-          <ul class="list-arrows">
-            <li>
-              I served as the Co-President of{" "}
-              <strong>
-                <a href="https://yhhap.org/vita">
-                  one of the largest service organizations on Yale’s campus
-                </a>
-              </strong>
-              . I managed 150 volunteers across Yale University and coordinated
-              free tax preparation for approximately 1,200 clients. In the 2020
-              tax season, we returned $1.3 million to taxpayers in the New Haven
-              area. Upon the closure of Yale University due the pandemic, I
-              worked with my Co-President Tylar Bloch to transition VITA to a
-              totally virtual operation to continue serving clients.
             </li>
           </ul>
         </Grid>
@@ -234,7 +268,9 @@ function Home() {
             <li>
               I joined the{" "}
               <strong>
-                <a href="https://staceyknoell.com/">Stacey Knoell Campaign</a>
+                <a href="https://staceyknoell.com/" target="_blank">
+                  Stacey Knoell Campaign
+                </a>
               </strong>{" "}
               as one of its first few Youth Fellows. In this role, I’ve helped
               the campaign with youth voter outreach efforts, phone banking,
@@ -252,12 +288,17 @@ function Home() {
             <li>
               I worked as an intern with Minneapolis-based nonprofit{" "}
               <strong>
-                <a href="https://microgrants.net/">MicroGrants</a>{" "}
+                <a href="https://microgrants.net/" target="_blank">
+                  MicroGrants
+                </a>{" "}
               </strong>
               to evaluate their program and grant efficacy. I produced an{" "}
               <strong>
-                <a href="https://microgrants.net/wp-content/uploads/2020/01/2018-MG-Annual-Eval-Report.pdf">
-                  an annual evaluation report
+                <a
+                  href="https://microgrants.net/wp-content/uploads/2020/01/2018-MG-Annual-Eval-Report.pdf"
+                  target="_blank"
+                >
+                  annual evaluation report
                 </a>
               </strong>
               , spoke with donors, and presented recommendations to the Board of
@@ -277,7 +318,10 @@ function Home() {
               Throughout my time at Yale, I’ve tried to serve as an effective
               and empathetic mentor to other students. As an{" "}
               <strong>
-                <a href="https://poorvucenter.yale.edu/meet-our-mentors">
+                <a
+                  href="https://poorvucenter.yale.edu/meet-our-mentors"
+                  target="_blank"
+                >
                   Academic Strategies Mentor
                 </a>
               </strong>
@@ -285,14 +329,27 @@ function Home() {
               low-income students) to navigate academic difficulties by
               providing 1-1 mentorship and facilitating workshops. As a{" "}
               <strong>
-                <a href="https://ezrastiles.yalecollege.yale.edu/people/first-year-counselors-2020-21">
+                <a
+                  href="https://ezrastiles.yalecollege.yale.edu/people/first-year-counselors-2020-21"
+                  target="_blank"
+                >
                   First Year Counselor
                 </a>
               </strong>
               , I am helping ten first-year students in their transition to
               college amid a pandemic. As a Communication and Consent Educator,
               I worked with a diverse team to promote a positive sexual culture
-              on campus.
+              on campus. I was recently awarded the{" "}
+              <strong>
+                <a
+                  href="https://news.yale.edu/2020/05/14/juniors-win-prizes-leadership-service-character"
+                  target="_blank"
+                >
+                  John C. Schroeder award
+                </a>
+              </strong>{" "}
+              by Yale College for my contributions to residential college life
+              and altruism.
             </li>
           </ul>
         </Grid>
@@ -350,6 +407,17 @@ function Home() {
         </Grid>
         <Grid item xs={8}>
           <ul class="list-arrows">
+            <li>
+              In{" "}
+              <strong class="class-names">
+                Modern Slavery and the 13th Amendment
+              </strong>{" "}
+              (HIST 122), I analyzed domestic and international approaches to
+              slavery. I studied the legal consequences of cornerstone
+              legislation like the Trafficking Victims Protection Act and the
+              Modern Slavery Act of 2015. I wrote my final paper on the dark
+              history of forced labor in the natural rubber industry.
+            </li>
             <li>
               In <strong class="class-names">Constitutional Law</strong> (PLSC
               233), I honed my skills in constitutional interpretation and

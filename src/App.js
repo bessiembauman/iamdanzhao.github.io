@@ -28,22 +28,29 @@ function App() {
       <Route path="/" component={Home} />
       <footer>
         <div class="icon-bar">
-          <a href="https://instagram.com/bessiemb" class="fa">
+          <a href="https://instagram.com/bessiemb" class="fa" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="https://linkedin.com/in/bessiebauman35" class="fa">
+          <a
+            href="https://linkedin.com/in/bessiebauman35"
+            class="fa"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href="mailto:bessie.bauman@gmail.com" class="fa">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>
-        <p>
+        <span style={{ fontSize: "80%" }}>
           <strong>
-            © 2020 Bessie Bauman | Website Inspired By{" "}
-            <a href="https://www.danielzhao.com"> Daniel Zhao</a>
+            © 2020 Bessie Bauman | Website By Easton Crupper | Inspired By{" "}
+            <a href="http://www.danielzhao.com" target="_blank">
+              {" "}
+              Daniel Zhao
+            </a>
           </strong>
-        </p>
+        </span>
       </footer>
     </div>
   );
