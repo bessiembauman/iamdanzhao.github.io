@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://bessiebauman.com",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
