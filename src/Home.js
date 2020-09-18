@@ -81,7 +81,7 @@ function Home() {
           </span>
           <span class="home-bottom"></span>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={3} style={{ paddingTop: "2em" }}>
           <img id="bio-prof-pic" src={profilePic} alt=""></img>
         </Grid>
       </Grid>
