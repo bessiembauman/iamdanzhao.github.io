@@ -14,7 +14,7 @@ function Home() {
         alignItems="top"
         style={{ paddingTop: "1em", paddingBottom: "2em" }}
       >
-        <Grid item s={8} md={5}>
+        <Grid item xs={8} md={5}>
           <span class="home-top"></span>
           <h2>Yale 2021 | B.A. Economics | 2020 Truman Scholar</h2>
           <span class="home-subdesc">

@@ -54,6 +54,13 @@ h1 {
   line-height: 1.15em;
 }
 
+@media screen and (max-width: 640px) {
+  h2 {
+    text-align: center;
+    font-size: 120%;
+  }
+}
+
 h4 {
   margin-bottom: 0;
   text-transform: uppercase;
@@ -185,6 +192,18 @@ header a:hover {
   font-weight: 600;
   padding-bottom: 0.33em;
   line-height: 1em;
+}
+
+@media screen and (max-width: 640px) {
+  .site-title {
+    z-index: 2000;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 0.33em;
+  }
 }
 
 nav {
@@ -541,9 +560,6 @@ hr.rounded-divider {
 }
 
 @media screen and (max-width: 640px) {
-  .home-top {
-  }
-
   .home-desc {
     line-height: 125%;
     font-size: 150%;
