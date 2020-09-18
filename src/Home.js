@@ -12,7 +12,7 @@ function Home() {
         direction="row"
         justify="center"
         alignItems="top"
-        style={{ paddingTop: "1em", paddingBottom: "2em" }}
+        style={{ paddingBottom: "2em" }}
       >
         <Grid item xs={8} md={5}>
           <span class="home-top"></span>

@@ -27,30 +27,32 @@ function App() {
       </nav>
       <Route path="/" component={Home} />
       <footer>
-        <div class="icon-bar">
-          <a href="https://instagram.com/bessiemb" class="fa" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-          <a
-            href="https://linkedin.com/in/bessiebauman35"
-            class="fa"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a href="mailto:bessie.bauman@gmail.com" class="fa">
-            <FontAwesomeIcon icon={faEnvelope} />
-          </a>
-        </div>
-        <span style={{ fontSize: "80%" }}>
-          <strong>
-            © 2020 Bessie Bauman | Website By Easton Crupper | Inspired By{" "}
-            <a href="http://www.danielzhao.com" target="_blank">
-              {" "}
-              Daniel Zhao
+        <Grid container>
+          <Grid item xs={12}>
+            <a href="https://instagram.com/bessiemb" class="fa" target="_blank">
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
-          </strong>
-        </span>
+            <a
+              href="https://linkedin.com/in/bessiebauman35"
+              class="fa"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="mailto:bessie.bauman@gmail.com" class="fa">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+          </Grid>
+          <Grid item xs={12} className="credits">
+            <strong>
+              © 2020 Bessie Bauman | Website By Easton Crupper | Inspired By{" "}
+              <a href="http://www.danielzhao.com" target="_blank">
+                {" "}
+                Daniel Zhao
+              </a>
+            </strong>
+          </Grid>
+        </Grid>
       </footer>
     </div>
   );
