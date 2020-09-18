@@ -14,7 +14,7 @@ function Home() {
         alignItems="top"
         style={{ paddingTop: "1em", paddingBottom: "2em" }}
       >
-        <Grid item xs={5}>
+        <Grid item s={8} md={5}>
           <span class="home-top"></span>
           <h2>Yale 2021 | B.A. Economics | 2020 Truman Scholar</h2>
           <span class="home-subdesc">
@@ -81,7 +81,7 @@ function Home() {
           </span>
           <span class="home-bottom"></span>
         </Grid>
-        <Grid item xs={3} style={{ paddingTop: "2em" }}>
+        <Grid item s={10} md={3} style={{ paddingTop: "2em" }}>
           <img id="bio-prof-pic" src={profilePic} alt=""></img>
         </Grid>
       </Grid>
@@ -500,10 +500,10 @@ function Home() {
         <Grid item xs={12} style={{ textAlign: "center" }}>
           <h2>More About Me</h2>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item s={8} md={4}>
           <img id="iceland-pic" src={icelandPic} alt=""></img>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item s={8} md={4}>
           <ul class="list-arrows">
             <li style={{ paddingBottom: "1.5em" }}>
               I am fluent in American Sign Language and proficient in Spanish. I

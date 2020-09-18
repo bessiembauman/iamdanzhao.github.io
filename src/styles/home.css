@@ -184,6 +184,7 @@ header a:hover {
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: 0.33em;
+  line-height: 1em;
 }
 
 nav {
