@@ -511,7 +511,7 @@ function Home() {
             </li>
             <li style={{ paddingBottom: "1.5em" }}>
               I have traveled to Cuba to study Spanish and meet my extended
-              family. My favorite comfort foods are picadillo, Cuban pork,
+              family. My favorite comfort foods are picadillo, lechon asado,
               morro, and plaintains.
             </li>
             <li style={{ paddingBottom: "1.5em" }}>
