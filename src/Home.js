@@ -18,10 +18,11 @@ function Home() {
           <span class="home-top"></span>
           <h2>Yale 2021 | B.A. Economics | 2020 Truman Scholar</h2>
           <span class="home-subdesc">
-            I care deeply about reducing economic inequality, so I’ve focused on
-            studying tax policy, welfare programs, and community development. I
-            have experience in direct service, legal and academic research, and
-            policy.
+            I am a recent graduate of Yale University, with a degree in
+            Economics. I care deeply about reducing economic inequality, so I
+            have studied tax policy, welfare programs, and community development
+            both academically and personally. I have experience in direct
+            service, legal and academic research, and policy.
           </span>
           <span class="home-subdesc">
             I’m always looking for opportunities to help low- and
@@ -30,38 +31,6 @@ function Home() {
             Assistance (VITA) program, researching how federal policies can
             assist communities in building wealth, or working on local
             campaigns.
-          </span>
-          <span class="home-subdesc">
-            I've been named a 2020{" "}
-            <strong>
-              <a
-                href="https://www.truman.gov/whats-new/2020-truman-scholars"
-                target="_blank"
-              >
-                Truman Scholar
-              </a>
-            </strong>
-            , a 2017{" "}
-            <strong>
-              {" "}
-              <a
-                href="https://www.kansascity.com/news/local/community/joco-913/article153111499.html"
-                target="_blank"
-              >
-                United States Presidential Scholar
-              </a>
-            </strong>
-            , and a 2017{" "}
-            <strong>
-              <a
-                href="https://www.jkcf.org/our-stories/meet-the-2017-cooke-college-scholars/"
-                target="_blank"
-              >
-                Jack Kent Cooke College Scholar
-              </a>
-            </strong>
-            . I'm so grateful to have the support of my friends, mentors, and
-            family as I pursue a career in public service.
           </span>
           <span class="home-subdesc">
             If you’re interested in getting in touch with me, please don’t
@@ -102,26 +71,23 @@ function Home() {
             a passionate advocate for economic justice.
           </span>
           <span class="home-subdesc">
-            I come from a family that has faced a difficult set of economic
-            circumstances. I lost my father to cancer in my freshman year of
-            high school, and in that year, I learned so much about how to
-            navigate the American welfare system. By extension, I discovered how
-            hard it is for Americans to get help when they need it most.
-            Additionally, my maternal grandmother escaped economic hardship in
-            Cuba by immigrating to Miami, FL in 1958. These experiences and many
-            others have inspired me to relentlessly pursue compassionate and
-            effective policies that can help all people access economic
-            stability and prosperity.
+            Economic justice is an issue near to my heart. I lost my father to
+            cancer in my freshman year of high school, and in that year, I
+            learned so much about how to navigate the American welfare system.
+            By extension, I discovered how hard it is for Americans, especially
+            for those who are disabled or speak languages other than English, to
+            get help when they need it most. These experiences, among others,
+            have inspired me to pursue compassionate and effective policies that
+            can help all people access economic stability and prosperity.
           </span>
           <span class="home-subdesc">
             In college, I fell in love with doing direct work to help low- and
             moderate-income families while also studying how we can broadly
             restructure our economy for the benefit of all people. My urgency
             for working in economic justice has only grown as I’ve seen the
-            importance of amplifying marginalized voices to initiate real,
-            sustainable change in vulnerable communities. I’m committed to
-            leveraging my skills to advocate alongside people to push for
-            progress.
+            importance of amplifying marginalized voices to enact substantial
+            and sustainable change. I’m committed to leveraging my skills to
+            advocate alongside people to push for progress.
           </span>
         </Grid>
       </Grid>
@@ -135,6 +101,48 @@ function Home() {
       >
         <Grid item xs={8} style={{ textAlign: "center" }}>
           <h2> My Work </h2>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>Redstone Strategy Group</strong> (Beginning August 2021)
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              Starting August 2021, I will work as an{" "}
+              <strong>
+                <a
+                  href="https://www.redstonestrategy.com/people/bessie-bauman/"
+                  target="_blank"
+                >
+                  analyst
+                </a>
+              </strong>{" "}
+              for Redstone Strategy Group to help nonprofits, philanthropies,
+              and governments maximize their social returns in the sectors of
+              shared prosperity, climate & energy, education, environment, and
+              health.
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>Department of Labor Civil Rights Center</strong> (June -
+            July 2021)
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              With the support of the Truman Foundation, I am working as an
+              intern with the DOL CRC Office of External Enforcement to process,
+              investigate, and adjudicate discrimination claims in programs that
+              receive federal financial assistance. I am largely working on
+              cases related to access to unemployment insurance for individuals
+              with disabilities and/or limited English proficiency.
+            </li>
+          </ul>
         </Grid>
         <Grid item xs={8}>
           <span class="home-subdesc">
@@ -223,9 +231,17 @@ function Home() {
               </strong>{" "}
               for the Institute. Through this program, I have received extensive
               training in public policy. I have collaboratively written a policy
-              memo on potential VITA expansion in the Navajo Nation, and I am
-              currently working on a longer whitepaper on the feasibility of
-              universal banking in the United States.
+              memo on potential VITA expansion in the Navajo Nation, and I have
+              co-authored{" "}
+              <strong>
+                <a
+                  href="https://prosperitynow.org/resources/financial-access-all"
+                  target="_blank"
+                >
+                  a report on universal financial access
+                </a>
+              </strong>{" "}
+              with experts from Prosperity now.
             </li>
           </ul>
         </Grid>
@@ -339,17 +355,136 @@ function Home() {
               , I am helping ten first-year students in their transition to
               college amid a pandemic. As a Communication and Consent Educator,
               I worked with a diverse team to promote a positive sexual culture
-              on campus. I was recently awarded the{" "}
+              on campus.
+            </li>
+          </ul>
+        </Grid>
+      </Grid>
+      <hr class="rounded-divider"></hr>
+      <Grid
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+        style={{ paddingTop: "1em", paddingBottom: "2em" }}
+      >
+        <Grid item xs={8} style={{ textAlign: "center" }}>
+          <h2> Awards </h2>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>2021</strong>
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              <strong>Yale David Everett Chantler Award:</strong> This award is
+              to be presented in the spring to that graduating member of the
+              Senior Class who has best exemplified qualities of courage,
+              strength of character, and high moral purpose.
+            </li>
+            <li>
+              <strong>Ezra Stiles Richard B. Sewall Cup:</strong> This award is
+              given to a senior for outstanding scholarly achievement and
+              creative promise.
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>2020</strong>
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              <strong>Truman Scholarship: </strong>
+              <strong>
+                <a
+                  href="https://www.truman.gov/whats-new/2020-truman-scholars"
+                  target="_blank"
+                >
+                  Students
+                </a>
+              </strong>{" "}
+              are named Truman Scholars based on their records of leadership,
+              public service, and academic achievement.
+            </li>
+            <li>
+              <strong>Yale John C. Schroeder Award: </strong>
+              This
               <strong>
                 <a
                   href="https://news.yale.edu/2020/05/14/juniors-win-prizes-leadership-service-character"
                   target="_blank"
                 >
-                  John C. Schroeder award
+                  {" "}
+                  award
                 </a>
               </strong>{" "}
-              by Yale College for my contributions to residential college life
-              and altruism.
+              is given to students who have contributed to residential college
+              life and who, in the opinion of the committee, will “play a part
+              in the good labor of the world.”
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>2017</strong>
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              <strong>U.S. Presidential Scholar: </strong>
+              This
+              <strong>
+                <a
+                  href="https://www2.ed.gov/programs/psp/2017/awards.html"
+                  target="_blank"
+                >
+                  {" "}
+                  award
+                </a>
+              </strong>{" "}
+              was designed to recognize and honor some of our nation's most
+              distinguished graduating high school seniors.
+            </li>
+            <li>
+              <strong>Jack Kent Cooke College Scholar: </strong>
+              The Jack Kent Cooke Foundation awards one of the largest
+              scholarships in the United States, the
+              <strong>
+                <a
+                  href="https://www.jkcf.org/our-stories/meet-the-2017-cooke-college-scholars/"
+                  target="_blank"
+                >
+                  {" "}
+                  College Scholarship
+                </a>
+              </strong>
+              , to outstanding students with financial need. Cooke College
+              Scholars are selected based on exceptional academic ability and
+              achievement, financial need, persistence, service to others and
+              leadership.
+            </li>
+            <li>
+              <strong>Horatio Alger State Scholar</strong>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={8}>
+          <span class="home-subdesc">
+            <strong>2016</strong>
+          </span>
+        </Grid>
+        <Grid item xs={8}>
+          <ul class="list-arrows">
+            <li>
+              <strong>
+                Leadership Enterprise for a Diverse America Scholar
+              </strong>
             </li>
           </ul>
         </Grid>
@@ -372,6 +507,22 @@ function Home() {
         </Grid>
         <Grid item xs={8}>
           <ul class="list-arrows">
+            <li>
+              In{" "}
+              <strong class="class-names">
+                Poverty & Social Welfare Policy in the United States
+              </strong>{" "}
+              (SOCY 341), I studied several of the United States’ foundational
+              welfare programs, such as Temporary Assistance for Needy Families,
+              Supplemental Nutrition Assistance Program, and Medicaid. I wrote
+              my final policy memo on the need to expand the Child Tax Credit.
+            </li>
+            <li>
+              In <strong class="class-names">Capitalism and Crisis</strong>{" "}
+              (PLSC 387), I studied the historical and political developments of
+              welfare states in advanced economies such as Sweden, the UK, and
+              Germany.
+            </li>
             <li>
               In{" "}
               <strong class="class-names">
@@ -407,6 +558,13 @@ function Home() {
         </Grid>
         <Grid item xs={8}>
           <ul class="list-arrows">
+            <li>
+              In <strong class="class-names">Anti-Slavery in Building</strong>{" "}
+              (ARCH 2242), a course cross listed between the Yale School of
+              Architecture and Yale Law School, I studied the prevalence of
+              slavery in building industries and methods to combat it using
+              supply chain tracking, legal recourse, and more.
+            </li>
             <li>
               In{" "}
               <strong class="class-names">
@@ -462,6 +620,18 @@ function Home() {
               of institutions, seeking to understand why some bad institutions
               persist over time. I wrote my final paper on the explanatory
               variables of the racial wealth gap.
+            </li>
+            <li>
+              In{" "}
+              <strong class="class-names">
+                Economics and Psychology of Poverty
+              </strong>{" "}
+              (ECON 479), I reviewed randomized control trials in behavioral
+              economics to understand the impact of unconditional cash transfers
+              and other specially psychologically-designed policy levers on
+              households’ economic prosperity. For my final paper, I conducted a
+              meta-analysis on economic papers evaluating the average effect of
+              tax salience on consumer behavior.
             </li>
           </ul>
         </Grid>
