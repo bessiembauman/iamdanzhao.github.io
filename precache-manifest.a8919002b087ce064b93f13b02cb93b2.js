@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5399b5fb6a6352fb9a159cf1efb7ebb5",
+    "revision": "d972e22c9fc9b0ca94b4f1ed722f22dc",
     "url": "/index.html"
   },
   {
-    "revision": "af9c5d055036d15f749a",
+    "revision": "4f5e0900bd18bf387884",
     "url": "/static/css/main.5a527b33.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9ac0c9a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af9c5d055036d15f749a",
-    "url": "/static/js/main.05404bd1.chunk.js"
+    "revision": "4f5e0900bd18bf387884",
+    "url": "/static/js/main.0aeda13b.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
     "url": "/static/js/runtime-main.83c3e0c4.js"
   },
   {
-    "revision": "a07bcdddbc87710d099c8129d73d375b",
-    "url": "/static/media/Bauman_Bessie.a07bcddd.jpg"
+    "revision": "edbc74c04c95b38876a0d13aecc27917",
+    "url": "/static/media/Bauman_Bessie.edbc74c0.jpg"
   },
   {
     "revision": "027e23d67d6059bfb9a1cdb14576e093",
